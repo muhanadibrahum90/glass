@@ -31,8 +31,8 @@ importers:
         specifier: ^7.28.0
         version: 7.28.0
       '@babel/plugin-transform-runtime':
-        specifier: ^7.28.0
-        version: 7.28.0(@babel/core@7.28.0)
+        specifier: ^7.28.5
+        version: 7.28.5(@babel/core@7.28.0)
       '@babel/preset-env':
         specifier: ^7.28.5
         version: 7.28.5(@babel/core@7.28.0)
@@ -570,8 +570,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
 
-  '@babel/plugin-transform-runtime@7.28.0':
-    resolution: {integrity: sha512-dGopk9nZrtCs2+nfIem25UuHyt5moSJamArzIoh9/vezUQPmYDOzjaHDCkAzuGJibCIkPup8rMT2+wYB6S73cA==}
+  '@babel/plugin-transform-runtime@7.28.5':
+    resolution: {integrity: sha512-20NUVgOrinudkIBzQ2bNxP08YpKprUkRTiRSd2/Z5GOdPImJGkoN4Z7IQe1T5AdyKI1i5L6RBmluqdSzvaq9/w==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -3230,8 +3230,8 @@ snapshots:
 
   '@babel/helper-module-imports@7.27.1':
     dependencies:
-      '@babel/traverse': 7.28.0
-      '@babel/types': 7.28.1
+      '@babel/traverse': 7.28.5
+      '@babel/types': 7.28.5
     transitivePeerDependencies:
       - supports-color
 
@@ -3650,7 +3650,7 @@ snapshots:
       '@babel/core': 7.28.0
       '@babel/helper-plugin-utils': 7.27.1
 
-  '@babel/plugin-transform-runtime@7.28.0(@babel/core@7.28.0)':
+  '@babel/plugin-transform-runtime@7.28.5(@babel/core@7.28.0)':
     dependencies:
       '@babel/core': 7.28.0
       '@babel/helper-module-imports': 7.27.1
